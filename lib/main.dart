@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:henry_ui/ui1.dart';
-import 'package:henry_ui/ui2.dart';
-import 'package:henry_ui/ui3.dart';
+import 'package:henry_ui/responsive_text.dart';
+import 'package:henry_ui/home.dart';
+import 'package:henry_ui/details.dart';
 
 
 void main() {

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Ui1 extends StatefulWidget {
-  const Ui1({super.key});
+class ResText extends StatefulWidget {
+  const ResText({super.key});
 
   @override
-  State<Ui1> createState() => _Ui1State();
+  State<ResText> createState() => _ResTextState();
 }
 
-class _Ui1State extends State<Ui1> {
+class _ResTextState extends State<ResText> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +20,7 @@ class _Ui1State extends State<Ui1> {
               child: LayoutBuilder(
                 builder: (context, constraint) {
                   return Text(
-                    'Sample', maxLines: 1,
+                    "Sameple", maxLines: 1,
                     style:
                         TextStyle(fontSize: constraint.maxWidth / 3.4), //5.35),
                   );

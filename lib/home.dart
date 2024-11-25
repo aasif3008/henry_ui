@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Ui2 extends StatefulWidget {
-  const Ui2({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<Ui2> createState() => _Ui2State();
+  State<Home> createState() => _HomeState();
 }
 
-class _Ui2State extends State<Ui2> {
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,7 +57,7 @@ class _Ui2State extends State<Ui2> {
               const Expanded(
                   flex: 2,
                   child: Padding(
-                    padding: const EdgeInsets.all(50),
+                    padding: EdgeInsets.all(50),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.stretch,

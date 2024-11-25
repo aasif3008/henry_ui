@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:henry_ui/responsive_text.dart';
 import 'package:henry_ui/home.dart';
-import 'package:henry_ui/details.dart';
+import 'package:henry_ui/curated/preview.dart';
 
 
 void main() {
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Ui3(),
+      home: const Preview(),
     );
   }
 }
